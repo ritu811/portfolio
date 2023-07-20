@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('../coolvetica rg.otf') format('otf');
+
+  }
+  
+  
+body {
+    font-family: 'Coolvetica';
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6))  ,url("../portfolio/imgg.png") ;
+    background-size: cover;
+    background-position: center;
+    /* height:100vh; */
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+
+}
+.header{
+    height:50vh;
+    width: 100%;
+  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 37%;
+    padding-right: 20%;
+}
+.name{
+    color: whitesmoke;
+    font-size: 48px;
+    font-weight: bolder;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: brown;
+    transition: .2s;
+
+}
+.intro{
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+    padding-top: 130px;
+}
+.field{
+    text-align: center;
+    font-size:15px;
+    color: whitesmoke;
+    padding-top: 10px;
+}
+
+
+#about-section{
+    /* height: 100vh; */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 60;
+}
+
+.about{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0px;
+    margin-left: 50px;
+    padding: 20px;
+    color:white;
+   
+}
+
+.container {
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left: 50px;
+    padding: 20;
+    display: flex;
+    flex-direction: column;
+    color:azure;
+    margin-bottom: 0;
+   
+}
+
+.container li {
+    margin-bottom: 5px;
+    font-size: 20px;
+   
+}
+#xyz{
+    font-weight: bold;
+}
+#education-section {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding-top: 80px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 60;
+}
+  
+.edu {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 50px;
+    color: white;
+}
+  
+.school {
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 50px;
+    color: orangered;
+    margin-top: 20px;
+}
+  
+#sdetail {
+    margin-top: 10px;
+    font-size: 17px;
+    color: aliceblue;
+    text-align: justify;
+    text-decoration: none;
+}
+.m1{
+    color:lightblue;
+}
+.m1:hover {
+    color: red;
+    transition-delay: 0.3s;
+  }
+.inter {
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    color: orangered;
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 350px;
+ }
+  
+#cdetail {
+    margin-top: 10px;
+    font-size: 17px;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: right;
+}
+  
+.m2 {
+    color: lightblue;
+}
+  
+.m2:hover {
+    color: red;
+    transition-delay: 0.3s;
+}
+.btech {
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 50px;
+    color: orangered;
+    margin-top: 20px;
+}
+  
+#edetail {
+    margin-top: 10px;
+    font-size: 17px;
+    color: aliceblue;
+    text-align: justify;
+    text-decoration: none;
+}
+.m3{
+    color:lightblue;
+}
+.m3:hover {
+    color: red;
+    transition-delay: 0.3s;
+}
+.circle-wrap{
+    display: grid;
+    grid-template-columns: repeat(1,160px);
+    grid-gap: 80px;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+#contact-section {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 60px;
+  }
+  
+.con {
+    display: flex; /* Use flexbox to arrange items in a row */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Distribute items along the row */
+    gap: 5px; /* Add some space between items */
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 30px;
+ }
+  
+.con1 {
+    display: flex; /* Use flexbox to align text and link in a line */
+    align-items: center; /* Vertically center content */
+    border: 2px solid rgb(119, 60, 9);
+    border-radius: 2px;
+    padding: 20px;
+}
+  
+#one, #two, #three {
+    text-align: center;
+    color: darkmagenta;
+    background-color: lavenderblush;
+  }
+  
+#one a, #two a, #three a {
+    text-decoration: none;
+    color: darkmagenta;
+ }
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 60px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+
+  
